@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Doza World</title>
+    <link rel="shortcut icon" href="image/channels4_profile.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="golova">
+        <div class="golova__box">
+            <nav class="golova__nav">
+                <img style="width: 200px; height: 70px;" src="image/doza.png" alt="">
+            <ul class="golova__list">
+                <li class="golova__item">
+                    <a class="golova__link active" href="#page1"> Главная </a>
+                </li>
+                <li class="golova__item">
+                    <a class="golova__link" href="#donat"> Донат </a>
+                </li> 
+                <li class="golova__item">
+                    <a class="golova__link" href="#page2"> Информация о режиме</a>
+                </li>
+                <li class="golova__item">
+                    <a class="golova__link" href="#page-social"> Соц сети </a>
+                </li>
+            </ul>
+            <a class="golova__button" id="authButton"> Войти</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="hero__background">
+                    <img class="hero__background-image" src="image/background1page.jpg" alt="">
+                </div>
+        
+        <section class="reg" id="regOverlay">
+            <div class="reg__window">
+                <span class="reg__close" id="regClose">
+                    &times;
+                </span>
+                <h2>Вход и регистрация</h2>
+                <form class="reg__form">
+                    <label>Email:</label>
+                    <input type="email" placeholder="example@mail.com" required>
+                    <label>Пароль:</label>
+                    <input type="password" placeholder="1234qwer" required>
+                    <button type="submit" class="submit__button">Войти</button>
+                    <p class="switch-reg">Нет аккаунта?  <a href="#"></a> Зарегистрироваться</p>
+
+                </form>
+
+
+            </div>
+        </section>
+
+
+        <section class="hero" id="page1">
+            
+            <div class="hero__container">
+                
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                             DOZA WORLD - ТО, ЧТО ТЫ ИСКАЛ 
+                         </h1>
+
+                        <p class="hero__desk">
+                            всяческая бурмя про то какой доза ворлд невьебический сервер и тебе школьнику нужно вьебать все деньгни с маминой карты
+
+
+                        </p>
+                    </div>
+
+                    <div class="hero__buttons">
+                        <a class="hero__button" href="/">
+                             Играть
+
+                        </a>
+                        <a class="hero__scroll" href="#page2">
+                            <img class="hero__scrollimage" src="image/strelka.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <img class="hero__dw" src="image/dozaworld.png" alt="">
+            </div>     
+           </section>
+            <section class="features" id="page2">
+            <div class="features__container">
+                <div class="feature">
+                        <img class="feature__image" src="image/mech.png" alt="">
+                        <div class="feature__content">
+                            <h3 class="feature__title">
+                                Всё о ПвП
+                            </h3>
+                            <p class="feature__desk">
+                                У нас есть:
+                            </p>
+                            <div class="feature__list">
+                                <li class="feature__icon">
+                                    <img src="image/icon/diamond.svg" alt="">
+                                    <p href="/"> Унижение школьников</p>
+                                </li>
+                                <li class="feature__icon">
+                                    <img src="image/icon/diamond.svg" alt="">
+                                    <p href="/"> Гриф школьников</p>
+                                </li>
+                                <li class="feature__icon">
+                                    <img src="image/icon/diamond.svg" alt="">
+                                    <p href="/"> Обман школьников</p>
+                                </li>
+                                <li class="feature__icon">
+                                    <img src="image/icon/diamond.svg" alt="">
+                                    <p href="/"> Фулл школьников</p>
+                                </li>
+                                <li class="feature__icon">
+                                    <img src="image/icon/diamond.svg" alt="">
+                                    <p href="/"> Оружие школьников</p>
+                                </li>
+                            </div>
+                            <a class="feature__link" href="/">
+                                Читать больше
+                            </a>
+                        </div>
+                </div>
+                 <div class="feature">
+                        
+                        <div class="feature__content">
+                            <h3 class="feature__title">
+                                Че нить
+                            </h3>
+                            <p class="feature__desk">
+                                Там про автошахту всякую и штучки всякие
+                            </p>
+                            <a class="feature__link" href="/">
+                                Читать больше
+                            </a>
+                        </div>
+                        <img class="feature__image-kirka" src="image/kirka.png" alt="">
+                </div>
+            </div>
+            </section>
+            <section class="subscription" id="donat">
+                <div class="subscription__container">
+                    <header class="subscription__header">
+                        <h2 class="subscription__title">
+                            Донать сюда деньги
+                        </h2>
+                        <div class="subscription__tabs">
+                            <button class="subscription__tab active">
+                                Месяц
+                            </button>
+                            <button class="subscription__tab">
+                                Год
+                            </button>
+
+                        </div>
+                    </header>
+                    <div class="subscription__plans">
+                        <div class="subscription__plan">
+                            <p class="subscription__plan-title">
+                                Стартер
+                            </p>
+                            <h2 class="subscription__plan-price">
+                                не free
+                            </h2>
+                            <p class="subscription__plan-features">
+                                Ничего не имеешь
+                            </p>
+                            <a class="subscription__plan-button" href="/">
+                                СЮДА ДАВАЙ
+                            </a>
+                        </div>
+                         <div class="subscription__plan active">
+                            <p class="subscription__plan-title">
+                                Крутыш
+                            </p>
+                            <h2 class="subscription__plan-price">
+                                1000$<span>/месяц</span>
+                            </h2>
+                            <p class="subscription__plan-features">
+                                Фулл всё имеется
+                            </p>
+                            <a class="subscription__plan-button" href="/">
+                                СЮДА ДАВАЙ
+                            </a>
+                        </div>
+                         <div class="subscription__plan">
+                            <p class="subscription__plan-title">
+                                Грифер нуб
+                            </p>
+                            <h2 class="subscription__plan-price">
+                                100$<span>/месяц</span>
+                            </h2>
+                            <p class="subscription__plan-features">
+                                Кирка + меч <br>(Не алмазные)</br>
+                            </p>
+                            <a class="subscription__plan-button" href="/">
+                                СЮДА ДАВАЙ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="social" id="page-social">
+                <div class="social__container">
+                    <a class="social__tg" href="https://t.me/dogsl1fe">
+                        <img class="social__images" src="image/tg.gif" alt="">
+                    </a>
+                    <a class="social__vk" href="https://vk.ru">
+                        <img class="social__images" src="image/vk.png" alt="">
+                    </a>
+                    <a href="https://max.ru" class="social__max">
+                        <img class="social__images" src="image/max.png" alt="">
+                    </a>
+
+                </div>
+            </section>
+    </main>
+<script src="code.js"></script>
+</body>
+
+</html>
